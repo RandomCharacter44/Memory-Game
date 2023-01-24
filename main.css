@@ -1,0 +1,30 @@
+html, body {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    height:90vh;
+    background-color: #272727;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 25px;
+    padding:25px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#grid {
+    padding: 25px;
+    width:400px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
